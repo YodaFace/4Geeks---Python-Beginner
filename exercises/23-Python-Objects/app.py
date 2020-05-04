@@ -22,9 +22,31 @@ class Family:
 # STEP 1 Change the fourth lucky number of John Doe to 33
 # Your code here
 
+#TEST
+print(Person.lucky_numbers[3])
+
+#UPDATE
+Person.lucky_numbers[3]= 33
+
+#TEST AGAIN
+print(Person.lucky_numbers[3])
+
+
+
 
 # STEP 2 Create Little Jimmy's object and then add it to the family object
 # Your code here
+
+class Person_3:
+    name = "Jimmy"
+    lastname = "Doe"
+    age = 13
+    gender = "male"
+    lucky_numbers = [ 1, 2, 3, 4]
+
+
+Family.members.append
+
 
 
 
